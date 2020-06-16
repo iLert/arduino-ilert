@@ -20,6 +20,14 @@ heartbeat.begin("APIKEY", 5);
 heartbeat.loop();
 ```
 
+## Compatible Hardware
+
+* ESP8266
+* ESP32
+* Arduino Ethernet
+* Arduino Ethernet Shield
+* Intel Galileo/Edison
+
 ## Getting help
 
 We are happy to respond to [GitHub issues][issues] as well.
