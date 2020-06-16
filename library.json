@@ -1,0 +1,18 @@
+{
+    "name": "ILERT",
+    "keywords": "ilert, iot, alerting, heartbeats",
+    "description": "A client library for iLERT's REST API. iLert offers a flexible alerting and on-call duty service. This library allows you to use its API e.g. send heartbeat pings to monitor your iot devices. It supports all Arduino Ethernet Client compatible hardware, including the Intel Galileo/Edison, ESP8266 and TI CC3000.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/iLert/arduino-ilert.git"
+    },
+    "version": "1.0.0",
+    "exclude": "tests",
+    "examples": "examples/*/*.ino",
+    "frameworks": "arduino",
+    "platforms": [
+        "atmelavr",
+        "espressif8266",
+        "espressif32"
+    ]
+}
