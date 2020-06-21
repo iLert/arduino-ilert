@@ -1,5 +1,9 @@
 #include "ILERTHeartbeat.h"
 
+#ifndef ILERT_BASE
+#define ILERT_BASE "https://api.ilert.com/api/v1"
+#endif
+
 bool ILERTHeartbeat::sendHeartbeat() {
 
     std::unique_ptr<BearSSL::WiFiClientSecure>client(new BearSSL::WiFiClientSecure);
