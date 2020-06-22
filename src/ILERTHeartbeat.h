@@ -3,6 +3,9 @@
 #include <ESP8266HTTPClient.h>
 #include <WiFiClientSecureBearSSL.h>
 
+#ifndef ILERT_HEARTBEAT_H
+#define ILERT_HEARTBEAT_H
+
 class ILERTHeartbeat {
 
     private:
@@ -17,3 +20,5 @@ class ILERTHeartbeat {
         bool loop();
         bool sendHeartbeat();
 };
+
+#endif
