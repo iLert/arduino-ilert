@@ -4,7 +4,7 @@
 
 iLert library for Arduino (ESP8266)
 
-Download the latest version from the [release](https://github.com/iLert/arduino-ilert/releases) section. Or grab the library from [PlatformIO](https://platformio.org/lib/show/617/ILERT).
+Download the latest version from the [release](https://github.com/iLert/arduino-ilert/releases) section. Or grab the library from [PlatformIO](https://platformio.org/lib/show/2671/ILERT).
 
 You can install it by running: `pio lib install "ILERT"`. 
 
