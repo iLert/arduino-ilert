@@ -2,5 +2,6 @@
 #define ILERT_H
 
 #include "ILERTHeartbeat.h"
+#include "ILERTMqtt.h"
 
-#endif
+#endif /* ILERT_H */

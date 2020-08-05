@@ -1,10 +1,10 @@
+#ifndef ILERT_HEARTBEAT_H
+#define ILERT_HEARTBEAT_H
+
 #include <Arduino.h>
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
 #include <WiFiClientSecureBearSSL.h>
-
-#ifndef ILERT_HEARTBEAT_H
-#define ILERT_HEARTBEAT_H
 
 class ILERTHeartbeat {
 
@@ -21,4 +21,4 @@ class ILERTHeartbeat {
         bool sendHeartbeat();
 };
 
-#endif
+#endif /* ILERT_HEARTBEAT_H */
